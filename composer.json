@@ -1,0 +1,17 @@
+{
+    "name": "root/lingualeo",
+    "authors": [
+        {
+            "name": "matvey",
+            "email": "artemiy@pulyavin.ru"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Project\\": "src/"
+        }
+    }
+}
